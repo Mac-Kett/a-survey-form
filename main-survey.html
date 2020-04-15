@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>survey-form</title>
+  <LINK REL=StyleSheet HREF="estilo-survey.css" TYPE="text/css" MEDIA=screen>
+  </head>
+  <body>
+    <h1 id="title">Sidney Library Survey Form </h1>
+    <h2>
+      <div class="transbox">
+        <br>
+    <p id="description">Thank you for taking a moment to answer the following questions.
+      <br>
+      <br>
+    </p>
+      <p>Name </p>
+    <form id="survey-form"><input type="text" required placeholder="Enter your name" id="name">
+      <p>Age </p>
+      <input type="number" placeholder="Enter your age" id="number" min="1" max="99">
+      
+      <div id="dropdown">
+        <ul class="nav">
+          <li><a href="">Gender
+            </a><ul>
+              <li><a href="">Men</a></li>
+              <li><a href="">Women</a></li>
+              <li><a href="">Others</a></li>
+            </ul>
+          </li>
+          
+          
+        </ul>
+      </div>
+      <br>
+      <p>Email </p>
+      <input type="text" placeholder="Enter your email" id="email">
+      <br>
+      <br>
+      <p>Tell us what you like to see next in our newsletter:</p>
+      <br>
+      <label for="children"><input type="checkbox" value="children" name="children" id="children">Children</label>
+      <br>
+      <label for="teen"><input type="checkbox" value="teen" name="teen" id="teen">Teen</label>
+      <br>
+      <label for="fiction"><input type="checkbox" value="fiction" name="fiction" id="fiction">Fiction</label>
+      <br>
+      <label for="horror"><input type="checkbox" value="horror" name="horror" id="horror">Horror</label>
+      <br>
+      <label for="love&story"><input type="checkbox" value="love&story" name="love&story" id="love&story">Love Story</label>
+      <br>
+      <label for="suspense"><input type="checkbox" value="suspense" name="suspense" id="suspense">Suspense</label>
+      <br>
+      <label for="science&fiction"><input type="checkbox" value="science&fiction" name="science&fiction" id="science&fiction">Science Fiction</label>
+      <br>
+      <label for="satire"><input type="checkbox" value="satire" name="satire" id="satire">Satire</label>
+      <br>
+      <label for="history"><input type="checkbox" value="history" name="history" id="history">History</label>
+      <br>
+      <label for="drama"><input type="checkbox" value="drama" name="drama" id="drama">Drama</label>
+      <br>
+      <br>
+      <p>Please tell us your sugestions </p>
+      <input type="text" placeholder="Enter your comment here" id="sugestions">
+      <p> Would you recomend us? </p>
+      <label for="yesrecomend"><input type="radio" id="yesrecomendation" value="yesrecomend" name="yesrecomend"> Yes </label>
+  
+      <label for="norecomend"><input type="radio" id="norecomendarion" name="norecomend"> No </label>
+      <br>
+      <br>
+      <button type="submit" id="submit"> Submit </button>
+    </form>
+      </div>
+    </h2>
+  </body>
+</html>

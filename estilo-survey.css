@@ -1,0 +1,76 @@
+body{
+    background-image: url("https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/532323/910/607/m2/fpnw/wm0/7-done-.jpg?1434728873&s=489d04afdb83465910aa2c37aeb17b79");
+  }
+  h1 {
+    font-size: 32;
+    margin-top: 15px;
+    text-align: center;
+  }
+  h2 {
+    border-radius: 5px;
+    margin-top: 40px;
+    text-align: left;
+  }
+  div.transbox {
+    background-color: beige;
+    opacity: 0.6;
+    margin-left: 170px;
+    margin-right: 170px;
+    
+  }
+  
+  p {
+    margin-left: 11px;
+  }
+  label {
+    margin-left: 30px;
+  }
+  #name{
+    margin-left: 13px;
+  }
+  #number{
+    margin-left: 13px;
+  }
+  #email{
+    margin-left: 13px;
+  }
+  #sugestions{
+    margin-left: 13px;
+  }
+  #submit{
+    margin-left: 30px;
+  }
+  
+  #dropdown {
+    padding: 0px;
+    margin: 0px;
+    
+  }
+  ul, ol {
+    list-style: none;
+  }
+  
+  .nav li a{
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    float: left;
+    
+  }
+  .nav > li {
+    float: left;
+  }
+  .nav li a:hover {
+    background-color: #434343;
+    display: block;
+  }
+  .nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+  }
+  nav li :hover > ul{
+    display: block;
+  }
+  
